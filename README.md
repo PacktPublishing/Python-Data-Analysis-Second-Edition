@@ -13,24 +13,15 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 The code will look like the following:
 ```
-import scipy.io.wavfile as sw import matplotlib.pyplot as plt import urllib
-import numpy as np
+import pandas as pd
+from numpy.random import seed from numpy.random import rand from numpy.random import rand_int import numpy as np
 
-request = urllib.request.Request('http://www.thesoundarchive.com/austinpowers/smashin gbaby.wav')
-response = urllib.request.urlopen(request) print(response.info())
-WAV_FILE = 'smashingbaby.wav' filehandle = open(WAV_FILE, 'wb') filehandle.write(response.read()) filehandle.close()
-sample_rate, data = sw.read(WAV_FILE)
-print("Data type", data.dtype, "Shape", data.shape)
+seed(42)
 
-plt.subplot(2, 1, 1) plt.title("Original") plt.plot(data)
-
-newdata = data * 0.2
-newdata = newdata.astype(np.uint8)
-print("Data type", newdata.dtype, "Shape", newdata.shape) sw.write("quiet.wav", sample_rate, newdata)
-plt.subplot(2, 1, 2) plt.title("Quiet") plt.plot(newdata)2
-
-plt.show()
- 
+df = pd.DataFrame({'Weather' : ['cold', 'hot', 'cold',
+'hot', 'cold', 'hot', 'cold'],
+'Food' : ['soup', 'soup', 'icecream', 'chocolate', 'icecream', 'icecream', 'soup'],
+'Price' : 10 * rand(7), 'Number' : rand_int(1, 9,)}) print(df)
 
 ```
 
