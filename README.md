@@ -26,8 +26,8 @@ df = pd.DataFrame({'Weather' : ['cold', 'hot', 'cold',
 ```
 
 The code examples in this book should work on most modern operating systems. For all
-chapters, Python > 3.5.0 and pip3 is required. You can download Python 3.5.x from https
-://www. python. org/downloads/. On this webpage, you can find installers for Windows
+chapters, Python > 3.5.0 and pip3 is required. You can download Python 3.5.x from https://www.python.org/downloads/. 
+On this webpage, you can find installers for Windows
 and Mac OS X as well as source archives for Linux, Unix, and Mac OS X. You can find
 instructions for installing and using python for various operating systems on this webpage:
 https://docs.python.org/3/using/index.html. 
