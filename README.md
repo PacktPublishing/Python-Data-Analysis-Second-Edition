@@ -1,7 +1,7 @@
 # Python Data Analysis Second Edition
 Python Data Analysis Second Edition by Packt
 
-This is the code repository for [Python Data Analysis - Second EditionPython Data Analysis - Second Edition](https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787127487), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [Python Data Analysis - Second Edition](https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787127487), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 Go toData analysis allows making sense of heaps of data. Python, with its strong set of libraries, is a popular language used today to conduct various data analysis, machine learning and visualization tasks.
 
