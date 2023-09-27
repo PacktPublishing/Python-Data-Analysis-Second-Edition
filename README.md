@@ -35,6 +35,9 @@ and Mac OS X as well as source archives for Linux, Unix, and Mac OS X. You can f
 instructions for installing and using python for various operating systems on this webpage:
 https://docs.python.org/3/using/index.html. 
 
+## Errata:
+* Page 44: _The output for the code_ print(np.int8(21.0)) _must be_ 21 _not_ 42.
+
 ## Related Products
 * [Mastering Python Data Analysis](https://www.packtpub.com/big-data-and-business-intelligence/mastering-python-data-analysis?utm_source=github&utm_medium=repository&utm_campaign=9781783553297)
 
